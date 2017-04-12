@@ -17,6 +17,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    UIView *testviw=[[UIView alloc]initWithFrame:CGRectMake(0, 0, 100, 50)];
+    [self.view addSubview:testviw];
+    NSLog(@"0000000000");
+    
+    
 }
 
 
